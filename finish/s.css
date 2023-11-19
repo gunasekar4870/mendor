@@ -1,0 +1,61 @@
+/* Additional styles for buttons */
+.category-button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: red; /* Change text color to red */
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style for the active button */
+.category-button.active {
+  background-color: #0056b3;
+}
+
+/* Styles for the table */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+thead {
+  background-color: #007BFF;
+  color: red; /* Change text color to red */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid black; /* Change border color to black */
+}
+
+/* Style for alternating rows */
+tbody tr:nth-child(even) {
+  background-color: #ad1e1e;
+}
+
+/* Style for links in the table */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Background image for the body */
+body {
+  background-image: url('img/9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: red; /* Change text color to red */
+}
+

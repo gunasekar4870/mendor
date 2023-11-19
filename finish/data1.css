@@ -1,0 +1,52 @@
+body {
+    background-image: url('1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+#therapistListSec {
+    background: rgba(0, 128, 0, 0.5); /* Green color for the container */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h2, h4 {
+    color: #fff; /* White text color for headings */
+}
+
+.mentors-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.mentors-table td {
+    padding: 10px;
+    border: 1px solid #FF0000; /* Red color for table borders */
+}
+
+.mentors-table .therapist h3 {
+    margin: 0;
+    color: #fff; /* White text color for therapist names */
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.available {
+    background-color: #4CAF50; /* Green color for available */
+    color: #fff; /* White text color for better visibility */
+}
+
+.unavailable {
+    background-color: #FF0000; /* Red color for unavailable */
+    color: #fff; /* White text color for better visibility */
+}

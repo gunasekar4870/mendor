@@ -1,0 +1,109 @@
+/* style.css */
+
+/* Navigation Container Styles */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+}
+
+/* Logo Styles */
+#logoMob {
+    display: flex;
+    align-items: center;
+}
+
+#logoMob a {
+    text-decoration: none;
+    color: #fff; /* Set your desired text color */
+    display: flex;
+    align-items: center;
+}
+
+#logoMob img {
+    width: 30px; /* Set your desired width */
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Navigation Menu Styles */
+#nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff; /* Set your desired text color */
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 5px;
+}
+
+/* Navigation Toggle Styles */
+.nav-btns {
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #fff; /* Set your desired text color */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px; /* Adjust as needed based on your header height */
+        left: 0;
+        background-color: #333; /* Set your desired background color */
+        padding: 20px;
+        z-index: 1000;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-close {
+        display: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
